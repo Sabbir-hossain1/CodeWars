@@ -17,4 +17,4 @@ def to_camel_case(text):
 
 my_string = "this_is-an_example" 
 new_string = to_camel_case(my_string)
-print(new_string.replace('_', '').replace('-', ''))
+print(new_string)
